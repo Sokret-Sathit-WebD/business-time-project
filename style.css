@@ -1,0 +1,42 @@
+.parent > p {
+    background-color: rgba(159, 163, 132, 30%);
+    color: rgb(255, 140, 0);
+    background-blend-mode: color-burn;
+}
+.header > h {
+    font-style:italic;
+    color:rgb(229, 41, 69);
+    text-decoration:underline;
+}
+body {
+    background-color: bisque;
+}
+.header {
+    background-color:blanchedalmond;
+}
+/* -------------------------------------------- */
+
+
+
+
+@media only screen and (max-width: 670px) {
+    .parent > p {
+        background-color: rgba(137, 132, 163, 0.3);
+        color: rgb(255, 0, 0);
+        background-blend-mode: color-burn;
+    }
+    .header > h {
+        font-style:oblique;
+        color:rgb(196, 97, 112);
+        text-decoration:underline;
+    }
+    body {
+        background-color: bisque;
+    }
+    .header {
+        background-color:blanchedalmond;
+    }
+    
+    
+    
+}
