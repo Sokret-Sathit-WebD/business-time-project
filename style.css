@@ -1,7 +1,7 @@
 .parent > p {
-    background-color: rgba(159, 163, 132, 30%);
-    color: rgb(255, 140, 0);
-    background-blend-mode: color-burn;
+    background-color: rgba(211, 151, 1, 0.3);
+    color: rgb(175, 53, 53);
+    background-blend-mode:color-dodge;
 }
 .header > h {
     font-style:italic;
@@ -9,7 +9,7 @@
     text-decoration:underline;
 }
 body {
-    background-color: bisque;
+    background-color: rgb(216, 186, 157);
 }
 .header {
     background-color:blanchedalmond;
